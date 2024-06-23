@@ -1,10 +1,11 @@
-#Declaration of variables
-principal = 1000  # Principal amount
-rate = 0.05       # Annual interest rate as a decimal
-time = 3          # Time in years
+# Ask the user to input their current age
+current_age = int(input("How old are you? "))
 
-#Simple interest calculation
-interest = principal * rate * time
+# Calculate the user's age in 2050
+current_year = 2023
+future_year = 2050
+years_until_future = future_year - current_year
+future_age = current_age + years_until_future
 
-#Result
-print (f"The simple interest is: {interest}")
+# Result is the user's age in 2050
+print (f"In 2050, you will be {future_age} years old.")

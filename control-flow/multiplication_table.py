@@ -7,5 +7,5 @@ for i in range(1, 10):
     print(f"{number} * {i} = {number * i}")
 
 # To check the range of the for loop
-for i in range(1, 10):
+for i in range(1, 11):
     print(f"Iteration {i}")

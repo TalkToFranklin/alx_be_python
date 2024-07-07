@@ -34,7 +34,7 @@ def main():
     """
     try:
         # Ask the user to enter a temperature
-        temperature = float(input("Enter the temperature: "))
+        temperature = float(input("Enter the temperature to convert: "))
         # Ask the user to specify the unit of the temperature
         unit = input("Is this in Celsius or Fahrenheit? (C/F): ").upper()
         

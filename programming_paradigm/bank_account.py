@@ -46,6 +46,10 @@ class BankAccount:
         print(f"Current Balance: ${self.__account_balance:.2f}")
 
 
+
+
+# This program should always be in a separate file
+
 import sys
 from bank_account import BankAccount
 

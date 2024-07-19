@@ -7,11 +7,12 @@ class Book:
 
     def __del__(self):
         #Destructor that prints a message when the object is deleted.
-        print(f"Deleting '{self.title}'")
+        print(f"Deleting {self.title}")
 
     def __str__(self):
-        #Return a string representation of the Book instance
-        return f"'{self.title}' by {self.author}, published in {self.year}"
+        """Return a string representation of the Book instance 
+        in the format '(title) by (author), published in (year)"""
+        return f"{self.title} by {self.author}, published in {self.year}"
 
     def __repr__(self):
         #Return an official string representation of the Book instance.
